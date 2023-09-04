@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "web3": "^4.1.1"
+  },
+  "name": "get-address-balance-server",
+  "description": "This simple app allows you to retreive an Ethereum addres balance; it is made to showcase how to deploy such apps on Kubernetes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "DZ",
+  "license": "MIT"
+}

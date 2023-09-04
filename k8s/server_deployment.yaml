@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: addressbalance
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: addressbalance
+  template:
+    metadata:
+      labels:
+        app: addressbalance
+    spec:
+      containers:
+        - name: addressbalance-container
+          image: soos3d/addressbalance:latest
+          ports:
+            - containerPort: 3333
+          env:
+            - name: ETHEREUM_RPC_URL
+              value: "YOUR_CHAINSTACK_RPC_URL"
+            - name: PORT
+              value: "3333"
