@@ -52,6 +52,8 @@ The project aims to provide a comprehensive guide for beginners to get hands-on 
    kubectl run addressbalance --image=soos3d/addressbalance:latest --port=80 --env="ETHEREUM_RPC_URL=YOUR_CHAINSTACK_NODE_URL" --env="PORT=3333"
    ```
 
+   This will deply one pod manually.
+
 5. **Deploy Using Manifest**
 
    > Find the manifest in the `k8s` directory.
@@ -71,6 +73,8 @@ The project aims to provide a comprehensive guide for beginners to get hands-on 
    ```sh
    kubectl apply -f server_deployment.yaml
    ```
+
+   This will deploy 4 managed pods.
 
 6. **Set Up Load Balancer**
 
