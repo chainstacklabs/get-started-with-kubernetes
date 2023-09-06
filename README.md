@@ -8,7 +8,7 @@ The app uses the Express framework to create a simple API server that interacts 
 
 The project aims to provide a comprehensive guide for beginners to get hands-on experience with Kubernetes deployments, pod management, and load balancing.
 
-> Find the full guide: [Getting started with Kubernetes on Linode](https://blog.davideai.dev/getting-started-with-kubernetes-on-linode)
+> Find the full guide on Chainstack's Developer Portal: [Getting started with Kubernetes on Linode](https://docs.chainstack.com/docs/tutorial-on-how-to-make-your-dapp-reliable-and-scalable-with-kubernetes)
 
 ### Prerequisites
 
